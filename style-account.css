@@ -1,0 +1,182 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Verdana !important;
+    text-align: center;
+}
+
+body, html{
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: red;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-right: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 100%;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d3;
+    overflow: hidden;
+    margin-right: 0;
+}
+
+.container-page form{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.container-activities{
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    height: 100%;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.activity{
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    font-size: 150%;
+    transition: all ease-in-out 1s;
+}
+
+.activity:hover{
+    background-color: #E9E6D8;
+}
+
+.frame-activity {
+    width: 100%;
+    height: 90vh;
+    margin:0;
+    overflow-y: auto;
+}
+
+.activity a{
+    text-decoration: none;
+    color:black;
+}
+
+.createActivity{
+    height: 5vh;
+    width: 15%;
+    margin-left:5%;
+    margin-bottom:3vh;
+    font-size: 120%;
+}
+
+.divCreateActivity{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divCreateActivity form {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 60%;
+}
+
+.contActivity{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom:1vh;
+    align-items: center;
+}
+
+.searchBar-form{
+    width: 25%;
+    height: 4vh;
+    border: 1 px solid black;
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    margin-top: 2vh;
+    margin-left: 65%;
+    align-items: center;
+}
+
+.searchBar{
+    margin-left:70%;
+}
+
+.info {
+    display:inline;
+    font-weight:100;
+}
+
+.stateDiv{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 3.5vh;
+    width: 15%;
+    margin-left:2%;
+    border-radius: 5px;
+}
+
+.content{
+    height: 10%;
+    width: 80%;
+}
+
+.content-collapse{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    word-break: break-all;
+    padding:1vh;
+}
+
+.show-all{
+    color:rgb(0, 110, 255);
+    text-decoration: underline;
+    font-size: 1em;
+}
